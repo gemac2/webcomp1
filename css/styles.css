@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans','Times New Roman', Times, sans-serif;
+}
+body,html{
+    height: 100%;
+    margin: 0px;
+    background: #000000;
+}
+.wrapper{
+    width: 940px;
+    height: 100%;
+    margin: auto;
+    background: #fff;
+}
+/*---stylesheader---*/
+header{
+    width: 940px;
+    height: 200px;
+    background: #a8d4dd;
+}
+.header1{
+    width: 940px;
+    height: 70px;
+    background: #a8d4dd;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logo{
+  color: #3a494c;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 150px;
+
+}
+.title h1{
+    color:  #3a3a3a;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-right: 360px;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu{
+   margin-left: -320px;
+}
+nav{
+    margin-right: 80px;
+}
+.button{
+    background: #3a494c;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    text-align: center;
+    width: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+   
+}
+.items{
+    display: inline-block;
+    color: #3a3a3a;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 8px 10px;
+    text-decoration: none;
+    
+}
+.header2{
+    display: flex;
+    justify-content: space-around;
+    width: 940px;
+    height: 110px;
+    background: #a8d4dd;
+}
+img{
+    width: 140px;
+    height: 110px;
+    margin-right: 170px;
+}
+.text h2{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 150px;
+    text-align: center;
+}
+.circles{
+    display: flex;
+    justify-content: center;
+    width: 940px;
+    height: 20px;
+    background: #a8d4dd; 
+}
+.circle1{
+    color: #fff;
+    margin-left: 20px;
+}
+.circle2{
+    color: #fff;
+    margin-left: 10px;
+   
+}
