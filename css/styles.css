@@ -122,48 +122,51 @@ img{
 .content2{
     width: 940px;
     margin: auto;
-    border: 1px solid black;
 }
 .section1{
-    height: 290px;
+    height: 350px;
     background:#fff;
     display: flex;
-   justify-content: center;
+   justify-content: space-between;
 }
 .flat{
-   width: 220px;
+   width: 300px;
    margin-top: 30px;
-   margin-left: 80px; 
+   margin-left: -3px; 
 }
 .imac-phone{
-    width: 90px;
-    height: 80px;
-    margin-left: 60px; 
+    width: 110px;
+    height: 90px;
+    margin-left: 100px; 
 }
 h3{
     font-size: 16px;
     text-align: center;
     margin-top: 5px;
 }
+p{
+    color: #515151;
+    text-align: center;
+}
 .greatideas{
-    width: 230px; 
+    width: 200px; 
     margin-top: 30px;
-    margin-left: 0px;   
+    margin-left: -20px;   
     
 }
 .light{
-    width: 90px;
-    height: 80px;
-    margin-left: 80px
+    width: 110px;
+    height: 90px;
+    margin-left: 40px
 }
 .browser{
-    width: 200px;
+    width: 270px;
     margin-top: 30px; 
-    margin-left: 10px; 
+    margin-right: 0px; 
 }
 .document{
-    width: 90px;
-    height: 80px;
+    width: 110px;
+    height: 90px;
     margin-left: 70px
 }
 /*---styles-section3---*/
