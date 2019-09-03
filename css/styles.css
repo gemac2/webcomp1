@@ -1,30 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
 h1,h2,h3,h4,h5,h6{
     font-family: 'Open Sans','Times New Roman', Times, sans-serif;
 }
 body,html{
-    height: 100%;
+    height:  100%;
     margin: 0px;
     background: #000000;
 }
 .wrapper{
-    width: 940px;
-    height: 100%;
     margin: auto;
     background: #fff;
 }
-/*---stylesheader---*/
-header{
+.content{
     width: 940px;
-    height: 200px;
+    margin: auto;
+    
+}
+/*---stylesheader---*/
+header{ 
     background: #a8d4dd;
+    height: 100%;
 }
 .header1{
-    width: 940px;
-    height: 70px;
     background: #a8d4dd;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 .logo{
@@ -33,14 +33,15 @@ header{
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 150px;
-
+  
 }
-.title h1{
+h1{
     color:  #3a3a3a;
     font-size: 16px;
-    margin-top: 24px;
-    margin-right: 360px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 17px;
+   margin-left: -540px;
     display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -48,17 +49,23 @@ header{
 }
 .menu{
    margin-left: -320px;
+  
 }
 nav{
-    margin-right: 80px;
+    margin-right: 0px;
+    margin-top: -10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 .button{
     background: #3a494c;
     color: #fff;
     display: inline-block;
-    padding: 8px 20px;
+    padding: 11px 22px;
     text-align: center;
-    width: 50px;
+    width: 60px;
+    margin-left: 20px;
     border-radius: 10px;
     text-decoration: none;
     
@@ -69,45 +76,148 @@ nav{
     color: #3a3a3a;
     width: 50px;
     margin-top: 20px;
-    margin-left: 0px;
-    padding: 8px 10px;
+    margin-left: 20px;
+    padding: 10px 15px;
     text-decoration: none;
     
 }
 .header2{
     display: flex;
     justify-content: space-around;
-    width: 940px;
-    height: 110px;
+    height: 100%;
     background: #a8d4dd;
 }
 img{
-    width: 140px;
-    height: 110px;
-    margin-right: 170px;
+    width: 300px;
+    height: 250px;
+    margin-right: 40px;
+    margin-top: 40px;
 }
 .text h2{
-    font-size: 16px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
-    margin-left: 250px;
-    margin-top: 30px;
-    width: 150px;
+    margin-left: -105px;
+    margin-top: 80px;
+    width: 370px;
     text-align: center;
 }
 .circles{
     display: flex;
     justify-content: center;
     width: 940px;
-    height: 20px;
+    height: 40px;
     background: #a8d4dd; 
 }
 .circle1{
     color: #fff;
-    margin-left: 20px;
+    margin-left: -10px;
 }
 .circle2{
     color: #fff;
     margin-left: 10px;
    
+}
+/*---styles-section1---*/
+.content2{
+    width: 940px;
+    margin: auto;
+    border: 1px solid black;
+}
+.section1{
+    height: 290px;
+    background:#fff;
+    display: flex;
+   justify-content: center;
+}
+.flat{
+   width: 220px;
+   margin-top: 30px;
+   margin-left: 80px; 
+}
+.imac-phone{
+    width: 90px;
+    height: 80px;
+    margin-left: 60px; 
+}
+h3{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+.greatideas{
+    width: 230px; 
+    margin-top: 30px;
+    margin-left: 0px;   
+    
+}
+.light{
+    width: 90px;
+    height: 80px;
+    margin-left: 80px
+}
+.browser{
+    width: 200px;
+    margin-top: 30px; 
+    margin-left: 10px; 
+}
+.document{
+    width: 90px;
+    height: 80px;
+    margin-left: 70px
+}
+/*---styles-section3---*/
+.section3{
+    height: 100%;
+    background: #97d2a4;
+
+}
+.content3{
+    width: 940px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+/*---stylescontent4---*/
+.section4{
+    height: 100%;
+    background: #f1f1f1;
+
+}
+.content4{
+    width: 940px;
+    margin: auto;
+    border: 1px solid black; 
+}
+/*---stylescontent5---*/
+.section5{
+    height: 100%;
+    background: #e1b6c7;
+
+}
+.content5{
+    width: 940px;
+    margin: auto;
+    border: 1px solid black; 
+}
+/*---stylescontent6---*/
+.section6{
+    height: 100%;
+    background: #b4d4df;
+
+}
+.content6{
+    width: 940px;
+    margin: auto;
+    border: 1px solid black; 
+}
+/*---stylesfooter---*/
+.section7{
+    height: 100%;
+    background: #3c3c3c;
+
+}
+.content7{
+    width: 940px;
+    margin: auto;
+    border: 1px solid white; 
 }
