@@ -29,6 +29,7 @@ header{
 }
 .logo{
   color: #3a494c;
+  font-size: 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -59,8 +60,17 @@ nav{
     font-weight: bold;
 }
 .button{
+    display: inline-block;
+    color: #3a3a3a;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.button:hover{
     background: #3a494c;
-    color: #fff;
+    color: #a8d4dd;
     display: inline-block;
     padding: 11px 22px;
     text-align: center;
@@ -103,6 +113,7 @@ img{
     text-align: center;
 }
 .circles{
+    font-size: 25px;
     display: flex;
     justify-content: center;
     width: 940px;
@@ -111,11 +122,16 @@ img{
 }
 .circle1{
     color: #fff;
-    margin-left: -10px;
+    margin-left: -20px;
 }
 .circle2{
     color: #fff;
-    margin-left: 10px;
+    margin-left: 20px;
+   
+}
+.circle3{
+    color: #fff;
+    margin-left: 20px;
    
 }
 /*---styles-section1---*/
@@ -272,7 +288,7 @@ p{
 }
 .buttonrecent{
     background: #ffffff;
-    color: #515151;
+    color: gray;
     display: inline-block;
     padding: 15px 30px;
     text-align: center;
@@ -280,7 +296,7 @@ p{
     margin-left: 20px;
     border-radius: 10px;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 /*---stylescontent4---*/
@@ -369,6 +385,50 @@ p{
     margin: auto;
     border: 1px solid black; 
 }
+.meettitle{
+    width: 940px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .meettitle h3{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 40px;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 70px;
+  }
+  .meettitle p{
+      font-family: 'Open Sans', sans-serif;
+      color: #ffffff;
+      text-align: center;
+      margin-top: -15px;
+  }
+  .boxes{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      height: 100%;
+  }
+  .box1{
+      width: 300px;
+      height: 350px;
+      border: 1px solid white;
+      
+  }
+  .user1{
+      width: 300px;
+      height: 175px;
+      background:  #f4f4f4;
+  }
+  .user1 i{
+      width: 200px;
+      height: 200px;
+      color: white;
+  }
 /*---stylescontent6---*/
 .section6{
     height: 100%;
