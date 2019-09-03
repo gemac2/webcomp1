@@ -624,3 +624,25 @@ p{
     margin: auto;
     border: 1px solid black; 
 }
+.footertitle{
+    width: 940px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.footertitle h1{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 40px;
+      color: #d2d1cf;
+      text-align: center;
+      margin-top: 70px;
+      margin-left: 0px;
+}
+.footertitle p{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -15px;   
+}
