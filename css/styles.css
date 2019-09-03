@@ -518,7 +518,100 @@ p{
 .content6{
     width: 940px;
     margin: auto;
-    border: 1px solid black; 
+}
+.recent{
+    width: 940px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.recent h3{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 40px;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 70px;
+}
+.recent p{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -15px;   
+}
+.boxes2{
+        display: flex;
+      justify-content: space-between;
+        margin-top: 50px;
+        height: 100%;
+}
+.box4 .box5 .box6{
+    width: 300px;
+    height: 600px; 
+    
+}
+.arrow1 .arrow2 .arrow3{
+    width: 300px;
+    height: 200px;  
+   
+}
+.arrowimg{
+    margin-top: 0px;
+    width: 287px;
+    height: 200px;    
+}
+.description2{
+    margin-top: -27px;
+  width: 287px;
+  height: 200px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.description2 p{
+    margin-top: -20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #515151;
+}
+.description2 h5{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.description2 h6{
+    margin-top: -25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+.link4{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+.button6{
+    display: inline-block;
+    color: black;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: normal;
+    text-decoration: none; 
+}
+.button6:hover{
+    background: #ffffff;
+    color: #b4d4df;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    width: 110px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 /*---stylesfooter---*/
 .section7{
