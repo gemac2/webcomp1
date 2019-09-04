@@ -622,7 +622,6 @@ p{
 .content7{
     width: 940px;
     margin: auto;
-    border: 1px solid black; 
 }
 .footertitle{
     width: 940px;
@@ -704,4 +703,72 @@ textarea{
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+}
+.piepagina{
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    height: 100%;
+    border: 1px;
+    border-color: black;
+    border-style: solid none none none;
+}
+.social2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.social2 i{
+    padding: 7px;
+    
+}
+.information2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 10px;
+    margin-left: 290px
+   
+}
+.information2 h4{
+    color: #97d2a4;
+}
+.information2 h5{
+    color: #d2d1cf;
+    margin-left: 5px;
+}
+.information2 h6{
+    color: #d2d1cf;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.information2 h3{
+    color: #d2d1cf;
+    margin-top: 23px;
+    margin-left: 15px;
+}
+.information2 i{
+    margin-top: 29px;
+    margin-left: 5px;
+}
+.information3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 10px;
+}
+.information3 h5{
+    color: #d2d1cf;
+    margin-left: 5px;
+    margin-top: 23px;
+}
+.information3 h4{
+    color: #97d2a4;
+    margin-left: 5px;
+    margin-top: 23px;
 }
