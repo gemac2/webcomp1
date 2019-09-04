@@ -34,14 +34,14 @@ header{
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  
+  margin-top: 50px;
 }
 h1{
     color:  #3a3a3a;
     font-size: 16px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 17px;
+    margin-top: 55px;
    margin-left: -540px;
     display: flex;
   flex-direction: row;
@@ -50,7 +50,7 @@ h1{
 }
 .menu{
    margin-left: -320px;
-  
+  margin-top: 50px;
 }
 nav{
     margin-right: 0px;
@@ -59,33 +59,9 @@ nav{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
-.button{
-    display: inline-block;
-    color: #3a3a3a;
-    width: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-.button:hover{
-    background: #3a494c;
-    color: #a8d4dd;
-    display: inline-block;
-    padding: 11px 22px;
-    text-align: center;
-    width: 60px;
-    margin-left: 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    
-   
-}
 .items{
     display: inline-block;
     color: #3a3a3a;
-    width: 50px;
-    margin-top: 20px;
     margin-left: 20px;
     padding: 10px 15px;
     text-decoration: none;
@@ -94,13 +70,7 @@ nav{
 .items:hover{
     background: #3a494c;
     color: #a8d4dd;
-    display: inline-block;
-    padding: 11px 22px;
-    text-align: center;
-    width: 60px;
-    margin-left: 20px;
     border-radius: 10px;
-    text-decoration: none;
 }   
 .header2{
     display: flex;
@@ -130,6 +100,7 @@ img{
     width: 940px;
     height: 40px;
     background: #a8d4dd; 
+    margin-bottom: 20px;
 }
 .circle1{
     color: #fff;
@@ -729,6 +700,7 @@ textarea{
 }
 .social2 i{
     padding: 7px;
+    display: block;
     
 }
 .information2{
@@ -742,26 +714,30 @@ textarea{
     font-weight: normal;
 }
 .information2 h4{
-    color: #F7DC6F;
+    color: #E8C877;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
 .information2 h5{
-    color: #A6ACAF;
+    color: #909090;
     margin-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 .information2 h6{
-    color: #A6ACAF;
-    margin-top: 25px;
+    color: #909090;
+    margin-top: 24px;
     margin-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 .information2 h3{
-    color: #A6ACAF;
+    color: #909090;
     margin-top: 23px;
     margin-left: 15px;
 }
 .information2 i{
-    color: #A6ACAF;
+    color: #909090;
     margin-top: 29px;
     margin-left: 5px;
 }
@@ -773,12 +749,16 @@ textarea{
     margin-top: 10px;
 }
 .information3 h5{
-    color: #A6ACAF;
+    color: #909090;
     margin-left: 5px;
     margin-top: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 .information3 h4{
-    color: #F7DC6F;
+    color: #E8C877;
     margin-left: 5px;
     margin-top: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
