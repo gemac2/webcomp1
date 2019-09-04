@@ -91,6 +91,17 @@ nav{
     text-decoration: none;
     
 }
+.items:hover{
+    background: #3a494c;
+    color: #a8d4dd;
+    display: inline-block;
+    padding: 11px 22px;
+    text-align: center;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}   
 .header2{
     display: flex;
     justify-content: space-around;
@@ -731,27 +742,31 @@ textarea{
     flex-wrap: wrap;
     justify-content: center; 
     margin-top: 10px;
-    margin-left: 290px
-   
+    margin-left: 290px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 .information2 h4{
-    color: #97d2a4;
+    color: #F7DC6F;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 .information2 h5{
-    color: #d2d1cf;
+    color: #A6ACAF;
     margin-left: 5px;
 }
 .information2 h6{
-    color: #d2d1cf;
+    color: #A6ACAF;
     margin-top: 25px;
     margin-left: 5px;
 }
 .information2 h3{
-    color: #d2d1cf;
+    color: #A6ACAF;
     margin-top: 23px;
     margin-left: 15px;
 }
 .information2 i{
+    color: #A6ACAF;
     margin-top: 29px;
     margin-left: 5px;
 }
@@ -763,12 +778,12 @@ textarea{
     margin-top: 10px;
 }
 .information3 h5{
-    color: #d2d1cf;
+    color: #A6ACAF;
     margin-left: 5px;
     margin-top: 23px;
 }
 .information3 h4{
-    color: #97d2a4;
+    color: #F7DC6F;
     margin-left: 5px;
     margin-top: 23px;
 }
