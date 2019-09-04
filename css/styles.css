@@ -44,7 +44,7 @@ h1{
  font-weight: bold;
  font-family: 'Times New Roman', Times, serif;
  margin-top: 45px;
- margin-right: 450px;
+ margin-right: 525px;
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
@@ -79,6 +79,7 @@ nav{
     justify-content: space-around;
     height: 100%;
     background: #a8d4dd;
+    padding: 30px 0;
 }
 img{
     width: 300px;
@@ -102,7 +103,7 @@ img{
     width: 940px;
     height: 40px;
     background: #a8d4dd; 
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .circle1{
     color: #fff;
@@ -571,8 +572,8 @@ p{
     display: flex;
     justify-content: center;
     height: 50px;
-    margin-top: 85px;
-    margin-bottom: 100px;
+    padding-top: 85px;
+    padding-bottom: 100px;
     font-family: 'Open Sans', sans-serif;
 }
 .button6{
