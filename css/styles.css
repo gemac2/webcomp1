@@ -678,8 +678,30 @@ textarea{
     border: none;
 
 }
-.message{
-    height: 100px;
-    text-align: unset;
+.link5{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
 }
-
+.button7{
+    display: inline-block;
+    color: #d2d1cf;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: normal;
+    text-decoration: none; 
+}
+.button7:hover{
+    background: #ffffff;
+    color: #000000;
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    width: 110px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
