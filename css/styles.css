@@ -38,16 +38,16 @@ header{
   
 }
 h1{
-    color:  #3a3a3a;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 45px;
-   margin-left: -480px;
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+ color:  #3a3a3a;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: 'Times New Roman', Times, serif;
+ margin-top: 45px;
+ margin-right: 450px;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: center;
 }
 .menu{
    margin-left: -320px;
@@ -606,7 +606,7 @@ p{
     flex-wrap: wrap;
     justify-content: center;    
 }
-.footertitle h1{
+.footertitle h2{
       font-family: 'Times New Roman', Times, serif;
       font-size: 40px;
       color: #d2d1cf;
@@ -674,6 +674,7 @@ textarea{
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+    cursor: pointer;
 }
 .piepagina{
     display: flex;
