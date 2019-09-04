@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800&display=swap');
 h1,h2,h3,h4,h5,h6{
     font-family: 'Open Sans','Times New Roman', Times, sans-serif;
 }
@@ -195,35 +195,31 @@ p{
     font-size: 40px;
     color: #ffffff;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 52px;
 }
 .title3 p{
     font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
+    color: #bfe1c5;
     text-align: center;
-    margin-top: -15px;
+    margin-top: -18px;
 }
 .menu2{
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 80px;
     font-size: 16px;
     
 }
 .buttonall{
     display: inline-block;
-    color: #ffffff;
+    background: #ffffff;
+    color: #a3a3a3;
     margin-top: 20px;
     margin-left: 40px;
     padding: 10px 20px;
+    border-radius: 10px;
     font-weight: normal;
     text-decoration: none; 
-}
-.buttonall:hover{
-    background: #ffffff;
-    color: #a3a3a3;
-    border-radius: 10px;
-
 }
 .items2{
     display: inline-block;
@@ -439,7 +435,7 @@ p{
     flex-direction: column;
 }
   .description p{
-      margin-top: -20px;
+      margin-top: -30px;
       font-family: 'Open Sans', sans-serif;
       color: #9d9d9d;
 }
@@ -449,8 +445,9 @@ p{
       font-family: 'Times New Roman', Times, serif;
 }
   .description h6{
-      margin-top: -25px;
+      margin-top: -30px;
     text-align: center;
+    font-size: 16px;
 }
   .social{
     width: 250px;
@@ -552,6 +549,7 @@ p{
 .description2 p{
     margin-top: -20px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     color: #9d9d9d;
 }
 .description2 h5{
@@ -561,16 +559,19 @@ p{
 }
 .description2 h6{
     margin-top: -25px;
+    color: #6f6f6f;
+    font-size: 16px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+    font-style: italic;
 }
 .link4{
     display: flex;
     justify-content: center;
     height: 50px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 85px;
+    margin-bottom: 100px;
     font-family: 'Open Sans', sans-serif;
 }
 .button6{
@@ -613,7 +614,7 @@ p{
 }
 .footertitle p{
     font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
+    color: #e8e8e8;
     text-align: center;
     margin-top: -15px;   
 }
@@ -685,13 +686,22 @@ textarea{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 30px;
     margin-top: 20px;
+    width: 300px;
 }
 .social2 i{
     padding: 7px;
+    width: 30px;
+    height: 30px;
+    background: #525252;
+    color: #3c3c3c;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 0 10px;
     display: block;
-    
+    border-radius: 50%;
+   
 }
 .information2{
     display: flex;
@@ -699,7 +709,7 @@ textarea{
     flex-wrap: wrap;
     justify-content: center; 
     margin-top: 10px;
-    margin-left: 290px;
+    margin-left: 150px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
@@ -710,25 +720,29 @@ textarea{
 }
 .information2 h5{
     color: #909090;
+    margin-top: 22px;
     margin-left: 5px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+    font-size: 16px;
 }
 .information2 h6{
     color: #909090;
-    margin-top: 24px;
+    margin-top: 22px;
     margin-left: 5px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+    font-size: 16px;
 }
 .information2 h3{
     color: #909090;
-    margin-top: 23px;
+    margin-top: 21px;
     margin-left: 15px;
+    font-weight: normal;
 }
 .information2 i{
     color: #909090;
-    margin-top: 29px;
+    margin-top: 26px;
     margin-left: 5px;
 }
 .information3{
@@ -741,14 +755,16 @@ textarea{
 .information3 h5{
     color: #909090;
     margin-left: 5px;
-    margin-top: 23px;
+    margin-top: 22px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+    font-size: 16px;
 }
 .information3 h4{
     color: #E8C877;
     margin-left: 5px;
-    margin-top: 23px;
+    margin-top: 22px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+    font-size: 16px;
 }
