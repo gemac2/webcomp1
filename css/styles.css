@@ -313,15 +313,8 @@ p{
     margin-bottom: 60px;
     font-family: 'Open Sans', sans-serif;
 }
+
 .buttonrecent{
-    display: inline-block;
-    color: gray;
-    margin-top: 20px;
-    margin-left: 40px;
-    font-weight: normal;
-    text-decoration: none; 
-}
-.buttonrecent:hover{
     background: #ffffff;
     color: gray;
     display: inline-block;
@@ -377,15 +370,8 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
+
 .buttonlayered1{
-    display: inline-block;
-    color: black;
-    margin-top: 20px;
-    margin-left: 40px;
-    font-weight: normal;
-    text-decoration: none; 
-}
-.buttonlayered1:hover{
     background: #97d2a4;
     color: #fff;
     border-radius: 10px;
@@ -400,15 +386,8 @@ p{
     display: flex;
     justify-content: space-between;
 }
+
 .buttonlayered2{
-    display: inline-block;
-    color: black;
-    margin-top: 20px;
-    margin-left: 40px;
-    font-weight: normal;
-    text-decoration: none; 
-}
-.buttonlayered2:hover{
     background: #e1b6c7;
     color: #fff;
     border-radius: 10px;
@@ -600,19 +579,12 @@ p{
 .link4{
     display: flex;
     justify-content: center;
-    height: 100%;
-    margin-bottom: 60px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     font-family: 'Open Sans', sans-serif;
 }
 .button6{
-    display: inline-block;
-    color: black;
-    margin-top: 50px;
-    margin-left: 40px;
-    font-weight: normal;
-    text-decoration: none; 
-}
-.button6:hover{
     background: #ffffff;
     color: #b4d4df;
     display: inline-block;
@@ -695,15 +667,8 @@ textarea{
     margin-bottom: 60px;
     font-family: 'Open Sans', sans-serif;
 }
+
 .button7{
-    display: inline-block;
-    color: #d2d1cf;
-    margin-top: 50px;
-    margin-left: 40px;
-    font-weight: normal;
-    text-decoration: none; 
-}
-.button7:hover{
     background: #ffffff;
     color: #000000;
     display: inline-block;
