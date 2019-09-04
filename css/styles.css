@@ -154,9 +154,10 @@ p{
     
 }
 .light{
-    width: 110px;
-    height: 90px;
-    margin-left: 40px
+    width: 55px;
+    height: 98px;
+    margin-left: 70px;
+    margin-top: 30px
 }
 .browser{
     width: 270px;
@@ -209,54 +210,40 @@ p{
     font-size: 16px;
     
 }
-.button3{
+.buttonall{
     display: inline-block;
     color: #ffffff;
     margin-top: 20px;
     margin-left: 40px;
+    padding: 10px 20px;
     font-weight: normal;
     text-decoration: none; 
 }
-.button3:hover{
+.buttonall:hover{
     background: #ffffff;
-    color: #515151;
-    display: inline-block;
-    padding: 10px 0px;
-    text-align: center;
-    width: 60px;
-    margin-left: 20px;
+    color: #a3a3a3;
     border-radius: 10px;
-    text-decoration: none;
-    font-weight: normal;
 
 }
-.button4{
+.items2{
     display: inline-block;
+    border: 1px solid #97d2a4 ;
     color: #ffffff;
     margin-top: 20px;
     margin-left: 40px;
+    padding: 10px 15px;
     font-weight: normal;
     text-decoration: none; 
 }
-.button4:hover{
+.items2:hover{
     background-color: transparent;
     color: #fff;
     border: 1px solid white;
     border-radius: 10px;
-    display: inline-block;
-    padding: 10px 22px;
-    margin-left: 20px;
     text-decoration: none;
-    font-weight: normal;
+    
 }
-.items2{
-    display: inline-block;
-    color: #ffffff;
-    margin-top: 20px;
-    margin-left: 40px;
-    font-weight: normal;
-    text-decoration: none;   
-}
+
 .images{
     width: 940px;
     height: 280px;
@@ -281,7 +268,6 @@ p{
     display: flex;
     justify-content: center;
     height: 100%;
-    margin-bottom: 60px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -296,6 +282,8 @@ p{
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 70px;
 }
 
 /*---stylescontent4---*/
@@ -403,7 +391,7 @@ p{
   }
   .meettitle p{
       font-family: 'Open Sans', sans-serif;
-      color: #b4d4df;
+      color: #edcfdc;
       text-align: center;
       margin-top: -15px;
   }
@@ -453,7 +441,7 @@ p{
   .description p{
       margin-top: -20px;
       font-family: 'Open Sans', sans-serif;
-      color: #515151;
+      color: #9d9d9d;
 }
   .description h5{
       text-align: center;
@@ -467,7 +455,7 @@ p{
   .social{
     width: 250px;
     height: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
     background: #ffffff; 
     display: flex;
     justify-content: center;
@@ -514,7 +502,7 @@ p{
 }
 .recent p{
     font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
+    color: #cee2ea;
     text-align: center;
     margin-top: -15px;   
 }
@@ -564,7 +552,7 @@ p{
 .description2 p{
     margin-top: -20px;
     font-family: 'Open Sans', sans-serif;
-    color: #515151;
+    color: #9d9d9d;
 }
 .description2 h5{
     text-align: center;
@@ -673,10 +661,12 @@ textarea{
     background: #ffffff;
     color: #000000;
     display: inline-block;
-    padding: 15px 30px;
+    padding: 10px 20px;
     text-align: center;
-    width: 110px;
+    width: 140px;
+    height: 50px;
     margin-left: 20px;
+    border: none;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
