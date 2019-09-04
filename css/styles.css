@@ -124,14 +124,14 @@ img{
     margin: auto;
 }
 .section1{
-    height: 350px;
+    padding-top: 80px;
+    padding-bottom: 100px;
     background:#fff;
     display: flex;
    justify-content: space-between;
 }
 .flat{
    width: 300px;
-   margin-top: 30px;
    margin-left: -3px; 
 }
 .imac-phone{
@@ -150,7 +150,6 @@ p{
 }
 .greatideas{
     width: 200px; 
-    margin-top: 30px;
     margin-left: -20px;   
     
 }
@@ -162,7 +161,6 @@ p{
 }
 .browser{
     width: 270px;
-    margin-top: 30px; 
     margin-right: 0px; 
 }
 .document{
