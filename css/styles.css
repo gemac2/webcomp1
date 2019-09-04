@@ -472,6 +472,7 @@ p{
 .iconpinterest a{
     color: #d31132;
     margin-left: 20px;
+    text-decoration: none;
 }
 /*---stylescontent6---*/
 .section6{
@@ -703,7 +704,7 @@ textarea{
     margin: 0 10px;
     display: block;
     border-radius: 50%;
-   
+    text-decoration: none;
 }
 .information2{
     display: flex;
